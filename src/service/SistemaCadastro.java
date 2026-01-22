@@ -1,3 +1,7 @@
+package service;
+
+import model.Usuario;
+
 import java.util.ArrayList;
 
 public class SistemaCadastro {

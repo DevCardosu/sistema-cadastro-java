@@ -1,3 +1,6 @@
+import model.Usuario;
+import service.SistemaCadastro;
+
 import java.util.Scanner;
 
 public class Main {
