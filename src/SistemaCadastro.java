@@ -27,4 +27,14 @@ public class SistemaCadastro {
         }
         return null;
     }
+
+    public boolean removePorId(int id) {
+        for (int i = 0; i < usuarios.size(); i++) {
+            if (usuarios.get(i).getId() == id) {
+                usuarios.remove(i);
+                return true;
+            }
+        }
+        return false;
+    }
 }
